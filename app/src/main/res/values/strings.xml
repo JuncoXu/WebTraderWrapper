@@ -1,0 +1,7 @@
+<resources>
+	<string name="app_name">FortexTrader</string>
+
+	<string name="btn_go_paper">Go</string>
+	<string name="et_domain_hint">Click here to input the second level domain</string>
+	<string name="tv_domain_paper">The second level domain</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	tools:context=".MainActivity"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/dp_20"
+		android:layout_marginStart="@dimen/dp_20"
+		android:layout_marginEnd="@dimen/dp_20"
+		android:textColor="@color/text_color"
+		android:textSize="@dimen/text_size"
+		android:drawablePadding="@dimen/dp_10"
+		app:drawableTopCompat="@mipmap/ic_launcher_round"
+		android:text="@string/tv_domain_paper"/>
+
+	<EditText
+		android:id="@+id/et_domain"
+		android:layout_marginTop="@dimen/dp_10"
+		android:layout_marginStart="@dimen/dp_20"
+		android:layout_marginEnd="@dimen/dp_20"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/shape_input_selector"
+		android:gravity="top|start"
+		android:hint="@string/et_domain_hint"
+		android:maxLength="64"
+		android:minHeight="@dimen/dp_50"
+		android:padding="@dimen/dp_10"
+		android:paddingTop="@dimen/dp_10"
+		android:singleLine="false"
+		android:textColor="@color/text_color"
+		android:textColorHint="#FFA2A7BD"
+		android:textCursorDrawable="@null"
+		android:textSize="@dimen/text_size"
+		android:importantForAutofill="no"
+		android:inputType="text" />
+
+	<Button
+		android:textSize="@dimen/text_size"
+		android:layout_width="@dimen/dp_80"
+		android:layout_height="@dimen/dp_50"
+		android:layout_marginTop="@dimen/dp_10"
+		android:layout_marginStart="@dimen/dp_20"
+		android:gravity="center"
+		android:text="@string/btn_go_paper"
+		android:enabled="false"
+		android:textColor="@color/white"
+		android:id="@+id/btn_go"/>
+
+</LinearLayout>
