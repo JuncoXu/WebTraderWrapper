@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
 		String h5TraderDomain = String.format(WebTraderApiConstant.STRING_WEBTRADERDOMAIN_URL_FMT, secondLevelDomain);
 		if(!TextUtils.isEmpty(secondLevelDomain)) {
 			//launch the HTML5 webtrader by brapper
-			//TODO :
+
 			finish();
 			return false;
 		}
